@@ -104,11 +104,12 @@ body{
 
     .imgcarousel{
         left: 0px;
-        width: 600px;
+        width: 500px;
     }
     .texto1{
         margin: 50px;
         margin-top: 80px;
+        font-size: 70%;
     }
     .contenedor4{
         display: flex;
