@@ -261,12 +261,12 @@ input[type="submit"]:hover{
     }
 
     .imgcarousel{
-        top: -200px;
+        top: -400px;
         left: 0px;
-        width: 300px;
+        width: 400px;
     }
     .texto1{
-        top: -400px;
+        top: -700px;
         margin: 50px;
         margin-top: 80px;
         font-size: 70%;
@@ -280,8 +280,12 @@ input[type="submit"]:hover{
         width: 400px;
         height: 200px;
         left: 0px;
+        top: -200px;
     }
     .contenedor6{
-        top: 1800px;
+        top: 1600px;
+    }
+    .funcion1{
+        margin-right: 50%;
     }
 }
