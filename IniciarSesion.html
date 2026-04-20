@@ -3,12 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styleInicioSesion.css">
     <title>InicioSesion</title>
 </head>
 <body>
-    <div class="background">
+    <div class="imagen1">
         <img src="img/InicioSesionFondo.jpeg" width="100%">
     </div>
-    
+
+    <div class="formulario">
+        <h1>Iniciar Sesion</h1>
+        <form>
+            <div class="Username">
+                <input type="text" required>
+                <label>Nombre Usuario</label>
+            </div>
+            <div class="Contraseña">
+                <input type="password" required>
+                <label>Contraseña</label>
+            </div>
+            <div class="OlvidoContraseña">
+                ¿olvido su contraseña?
+            </div>
+
+            <input type="submit" value="iniciar">
+
+            <div class="Registrarse">
+               ¿No tienes una cuenta? <a href="index.html">Registrate</a>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
